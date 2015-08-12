@@ -1,10 +1,10 @@
 # Install and configure the Flask Api Skeleton
-class api_skeleton (
-    $port = '9010',
+class matching_service (
+    $port = '9090',
     $host = '0.0.0.0',
-    $source = 'git://github.com/LandRegistry/charges-api-skeleton',
+    $source = 'git://github.com/LandRegistry/charges-matching-service',
     $branch_or_revision = 'master',
-    $domain = 'api.*',
+    $domain = 'matching.*',
     $owner = 'vagrant',
     $group = 'vagrant'
 ) {

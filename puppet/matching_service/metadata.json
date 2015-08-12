@@ -1,0 +1,11 @@
+{
+  "name": "matching_service",
+  "version": "0.0.1",
+  "author": "Land Registry Charges team",
+  "summary": "Install the digital mortgage matching service.",
+  "license": "MIT",
+  "source": "https://github.com/LandRegistry/charges-matching-service",
+  "project_page": "https://github.com/LandRegistry/charges-matching-service",
+  "issues_url": "https://github.com/LandRegistry/charges-matching-service",
+  "dependencies": [{"name": "puppetlabs/vcsrepo"}]
+}
