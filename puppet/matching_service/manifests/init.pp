@@ -4,7 +4,8 @@ class matching_service (
     $host = '0.0.0.0',
     $source = 'git://github.com/LandRegistry/charges-matching-service',
     $branch_or_revision = 'master',
-    $domain = 'matching.*',
+    $subdomain = 'api',
+    $domain = undef,
     $owner = 'vagrant',
     $group = 'vagrant'
 ) {
@@ -63,6 +64,10 @@ class matching_service (
     owner   => $owner,
     group   => $group,
     notify  => Service['nginx'],
+  }
+
+  if $environment == 'development' {
+    standard_env::dev_host { $subdomain: }
   }
 
 }
