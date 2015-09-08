@@ -4,7 +4,7 @@ class matching_service (
     $host = '0.0.0.0',
     $source = 'git://github.com/LandRegistry/charges-matching-service',
     $branch_or_revision = 'master',
-    $subdomain = 'api',
+    $subdomain = 'matching-service',
     $domain = undef,
     $owner = 'vagrant',
     $group = 'vagrant'
