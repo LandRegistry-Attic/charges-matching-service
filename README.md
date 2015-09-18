@@ -4,7 +4,7 @@ The Matching service provides matching between verify and the identity database.
 
 - [Usage](#usage)
 - [Getting Started](#getting-started)
-- [Testing](#changing-the-migration)
+- [Testing](#Testing)
 
 ## Usage
 ```
