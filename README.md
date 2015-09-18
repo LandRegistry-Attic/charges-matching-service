@@ -1,6 +1,23 @@
-# API Skeleton
+# Matching Service
 
-The API Skeleton provides a skeleton API for use with flask API projects.
+The Matching service provides matching between verify and the identity database.
+
+- [Usage](#usage)
+- [Getting Started](#getting-started)
+- [Testing](#changing-the-migration)
+
+## Usage
+```
+get     /                           # automatically redirects to helloworld for app test
+get     /helloworld                 # test endpoint for the application
+```
+
+## Getting Started
+1. Clone the repo
+2. In the directory enter the command
+```
+pip install -r requirements.txt
+```
 
 ## Testing
 
